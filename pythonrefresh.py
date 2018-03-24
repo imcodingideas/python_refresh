@@ -68,4 +68,19 @@ numbers = [76, 83, 16, 69, 52, 78, 10, 77, 45, 52, 32, 17, 58, 54, 79, 72, 55, 5
 
 for n in numbers:
   if n > 90:
-      print(n)
+    print(n)
+
+print("**********************************")
+
+cats = {
+  "Fido":8, "Sally":17, "Sean":2
+}
+
+del(cats["Sean"])
+
+print(cats["Sally"])
+print(cats)
+
+print("**********************************")
+
+
