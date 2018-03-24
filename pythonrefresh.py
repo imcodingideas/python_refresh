@@ -83,4 +83,29 @@ print(cats)
 
 print("**********************************")
 
+class Dog:
 
+  def __init__(self, name="", age=0, color=""):
+    self.name = name
+    self.age = age
+    self.color = color
+
+  # dog_info = "Hello dogs are cool"
+
+  def bark(self):
+    print("BARK")
+
+mydog = Dog("Max", 8, "Tri")
+# mydog.bark()
+# mydog.name = "Max"
+# mydog.age = 8
+
+# print(mydog.name)
+# print(mydog.age)
+
+# Dog.dog_info = "Hey there"
+# print(Dog.dog_info)
+
+print(mydog.age)
+
+print("***********************")
