@@ -32,3 +32,20 @@ def hello(name="Joe", age=0):
 introduction = hello(name, age)
 
 print(introduction)
+
+def trippleprint(str):
+  print(str * 3)
+
+trippleprint("hello")
+
+dognames = ["Max", "Christy", "Juanita"]
+
+# dognames.insert(0, "Jane")
+del(dognames[2])
+
+dognames[1] = "Juanita"
+
+#print(len(dognames))
+print(dognames)
+
+shoes = ["Spizikes", "Air Force 1", "Curry 2", "Melo 5"]
